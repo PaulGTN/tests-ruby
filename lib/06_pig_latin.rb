@@ -48,7 +48,7 @@ def translate(a)
 =end
 
 def translate(word)
-    word.include?{/aeiou/}.insert("ay")
+    word.split.include?{/aeiou/}.insert("ay")
     
     
     end
