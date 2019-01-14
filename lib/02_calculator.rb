@@ -1,18 +1,10 @@
 def add(a, b)
-    result = a + b
-    a = Integer
-    b = Integer
-    return result
-    # ou tout simplement a + b et end 
+    a + b 
 end 
 
 def subtract(a, b)
-    result = a - b
-    a = Integer
-    b = Integer
-    return result
-    # ou tout simplement a - b et end 
-end
+    a - b 
+end 
 
 def sum(input_array)
     result = 0
@@ -27,24 +19,21 @@ end
 
 
 def multiply(a, b)
-    result = a * b
-    a = Integer
-    b = Integer
-    return result
-    # ou tout simplement a * b et end 
+    a * b
 
 end
 
+=begin
+=end
 def power(a, b)
-    result = a ^ b
-    a = Integer
-    b = Integer
-    return result
+    a ** b
     # ou tout simplement a ^ b et end 
 end
 
 
-def factorial
+
+def factorial (a)
+    (1..a).inject(:*) || 1
 end
 
 
